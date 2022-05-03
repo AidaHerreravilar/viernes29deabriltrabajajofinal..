@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+  
+    <div id ="principal"></div>
+      <button id="btnComprar">Comprar</button>
+      <h1>Productos más vendidos</h1>
+    </div>
+    <div id ="cargandoProducto"></div>
+    <button id="btncargandoProducto">Cargar Producto</button>
+    
+    <button class="btn btnVerProducto">VER TODOS LOS PRODUCTOS</button>
+	</div>
+  <div class="formulario de compra">
+      <h2>Formulario de Compra</h2>
+      <div class="comprar-formulario">
+          <div class="row">
+              <div class="comprar">
+                  <input type="text" placeholder="Nombre" id="nombre" onkeydown="checkPostMensaje()" />
+              </div>
+              <div class="apellido">
+                  <input type="text" placeholder="Apellido" id="apellido" onkeydown="checkPostMensaje()" />
+              </div>
+              <div class="datos">
+                  <input type="email" placeholder="E-mail" id="contactEmail" onkeydown="checkPostMensaje()" />
+                  <textarea placeholder="Producto" id="txtproducto" onkeydown="checkPostMensaje()"></textarea>
+              </div>
+              <div class="col-lg-12 text-right">
+                  <button type="button"  class='activo' id="btnEnviarComprarProducto" disabled onclick="postComprar()">
+                    Comprar Producto</button>
+              </div>
+          </div>
+      </div>
+  </div>
+    
+      
+
+  </section>
+    <script src="src/comprar.ts"></script>
+  </body>
+</html>
